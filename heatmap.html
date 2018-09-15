@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=visualization"></script>
+<script src="crime_2012_december.json" ></script>
+
+<div id="map-canvas" style="height:600px;width:800px"></div>
+
+<script type="text/javascript">
+
+function point(crime){
+    var point = {};
+    /*
+    point.latitude = crime[?];
+    point.longitude = crime[?];
+    */
+    return point;
+}
+
+var points = chicago.data.map(point);
+
+</script>
+<script src="heatmap.js"></script>
+</html>
